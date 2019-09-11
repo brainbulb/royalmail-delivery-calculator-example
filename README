@@ -1,18 +1,3 @@
 ## OVERVIEW ##
 
 Example project which provides an estimated delivery date, using a delivery supplier agnostic algorithm.
-
-1.) Web service which outputs an estimated delivery date using a supplier agnostic algorithm.
-2.) Web form, using the web service to display an estimated delivery date in a human readable format, given a supplier name, date, time and country.
-3.) Database structure for an e-commerce system which has one or more delivery suppliers, products, customers, orders etc.
-
-
-## QUESTIONS ##
-
-1.) What format should the web service output the estimated delivery date in?
-2.) Step 1 doesn't make sense about the public repo. It conflicts with other info. Do we really want everything to be public?
-
-## APPROACH ##
-
-Usually I would ask questions to clarify matters before starting work.
-I'm going on the basis of using symfony components to produce a lightning fast web service.
